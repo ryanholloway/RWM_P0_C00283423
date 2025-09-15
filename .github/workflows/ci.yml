@@ -27,3 +27,9 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Test Summary
+        uses: test-summary/action@v2
+        with:
+          paths: "test-results/**/*.xml"
+        if: always()
