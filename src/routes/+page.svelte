@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { cubes } from '$lib/filters';
+  import { cubes, removeOddNumbers } from '$lib/filters';
   let raw = '1 3 5 7 9 999';
   $: input = raw.trim().split(/\s+/).filter(Boolean).map(Number);
-  $: output = cubes(input);
+  $: output = removeOddNumbers(input);
 </script>
 
 <h1>Sequence Filter Demo</h1>
