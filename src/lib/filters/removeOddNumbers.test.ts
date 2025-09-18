@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { removeOddNumbers } from "./removeOddNumbers";
+import { removeOddNumbers } from "./removeOddNumbers.js";
 
 describe("Remove Odd Numbers Filter", () => {
   it("Removes all odd numbers", () => {
