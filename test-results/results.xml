@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="Unit Tests" tests="2" failures="0" errors="0" time="0.0041957">
+    <testsuite name="src/lib/filters/cube.test.ts" timestamp="2025-09-15T11:39:53.090Z" hostname="CD-L216-207" tests="1" failures="0" errors="0" skipped="0" time="0.0021836">
+        <testcase classname="src/lib/filters/cube.test.ts" name="Cube filter &gt; cubes a sequence" time="0.0012408">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/lib/filters/removeOddNumbers.test.ts" timestamp="2025-09-15T11:39:53.091Z" hostname="CD-L216-207" tests="1" failures="0" errors="0" skipped="0" time="0.0020121">
+        <testcase classname="src/lib/filters/removeOddNumbers.test.ts" name="Remove Odd Numbers Filter &gt; Removes all odd numbers" time="0.0011627">
+        </testcase>
+    </testsuite>
+</testsuites>
