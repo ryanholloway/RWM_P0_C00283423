@@ -1,0 +1,4 @@
+- For each section of the component (style, script etc) look at remote and local branch to view the changes
+- Accept the change with majority of what I want in the final file (or in some cases accept both)
+- Add any missing sections or remove duplicate code in the manual override section (bottom window)
+- Save and click accept merge
